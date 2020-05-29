@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">License Plate Recognitin</string>
+    <string name="title_shop">Shop</string>
+    <string name="title_gifts">Gifts</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_profile">Profile</string>
+    <string name="scan_plate">Scan Plate</string>
+
+    <string name="hint_scan">Click camera button</string>
+
+    <string name="permission_camera_rationale">Akses ke kamera dibutuhkan</string>
+    <string name="no_camera_permission">Aplikasi ini tidak dapat berjalan karena tidak ada ijin.  Aplikasi akan ditutup.</string>
+    <string name="low_storage_error">Ocr dependencies tak bisa diunduh karena low device storage</string>
+    <string name="ok">OK</string>
+
+    <string name="action_enable_flash">Nyalakan Flash</string>
+    <string name="action_disable_flash">Matikan Flash</string>
+
+
+
+    <string name="scanning">Memindai…</string>
+
+
+    <string name="ocr_tutorial_need_help">Butuh Bantuan?</string>
+    <string name="ocr_tutorial_tips">Tips untuk hasil lebih baik.</string>
+
+    <string name="ocr_tutorial_vehicle_tips_title">Tips</string>
+    <string name="ocr_tutorial_vehicle_tips_message">\n
+        - Pindai dengan lurus, hindari memindai dari samping.\n
+        - Hasil tebaik dengan cahaya natural.\n
+        - Hindari kesilauan sebisa mungkin,\n
+        - Jarak yang tapat, akan memberikan hasil terbaik.\n
+        - Jepit untuk memperbesar jika ada jarak dengan plat.\n
+        - Saat malam gunakan flash.\n
+    </string>
+    <string name="ocr_tutorial_vehicle_important_title">Penting</string>
+    <string name="ocr_tutorial_vehicle_important_message">\n
+        - Kesulitan mengidentifikasi nomor 1 dalam kondisi tertentu.\n
+        - Kesulitan memnbedakan huruf Q dan O dalam kondisi tertentu.\n
+        - Sekrup pada plat akan mempengaruhi akurasi pemindaian.\n
+    </string>
+    <string name="ocr_tutorial_vehicle_supported_plates_title">Supported Plates</string>
+    <string name="ocr_tutorial_vehicle_supported_plates_message">\n
+        - Indonesia\n
+    </string>
+
+    <string name="Appname">LICENSE \nPLATE \nRECOGNITION</string>
+
+</resources>

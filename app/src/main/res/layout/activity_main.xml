@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<android.support.constraint.ConstraintLayout
+    tools:context=".ui.MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+            android:id="@+id/menus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:layout_width="259dp"
+                android:layout_height="268dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="67dp"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/Appname"
+                android:textColor="@color/white"
+                android:textSize="55sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="208dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:text="Scan"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <android.support.v7.widget.AppCompatImageButton
+                    android:id="@+id/buttonCamera"
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_centerVertical="true"
+                    android:scaleType="fitCenter"
+                    android:tint="@color/white"
+                    android:src="@drawable/skip"
+                    android:layout_alignParentEnd="true"/>
+
+                <android.support.v7.widget.AppCompatImageButton
+                    android:id="@+id/btnViewDB"
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_centerVertical="true"
+                    android:scaleType="fitCenter"
+                    android:tint="@color/white"
+                    android:src="@drawable/button"
+                    android:layout_alignParentEnd="true"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/licensePlateScanned"
+                    style="@style/Text.SubHead"
+                    android:layout_width="183dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@+id/buttonCamera"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:hint="@string/hint_scan" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

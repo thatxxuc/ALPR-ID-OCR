@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/No_Pelanggaran"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Card Title"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+    <TextView
+        android:id="@+id/waktu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Card Title"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+    <TextView
+        android:id="@+id/Jenispel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Card Title"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    </LinearLayout>
+   
+</androidx.cardview.widget.CardView>

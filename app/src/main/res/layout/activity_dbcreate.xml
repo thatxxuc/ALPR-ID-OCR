@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="TAMBAH DATA DOSEN" />
+
+    <ImageView
+        android:id="@+id/photoid"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/nik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor Induk Pegawai"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/nama_dosen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Dosen"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/spinnerJA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+    <Button
+        android:id="@+id/bt_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/choosefile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Image" />
+</LinearLayout>

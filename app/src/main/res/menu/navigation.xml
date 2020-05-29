@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <item
+        android:id="@+id/main"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="@string/title_shop" />
+
+    <item
+        android:id="@+id/list"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="@string/title_gifts" />
+
+</menu>
