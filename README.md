@@ -1,4 +1,4 @@
 Inspired and customized from :
 
-![alt text](https://github.com/jllarraz/LicensePlateOcrAndroid/)
+https://github.com/jllarraz/LicensePlateOcrAndroid.git
 
